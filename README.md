@@ -93,7 +93,7 @@ Example: **D16F0001**.hex
 # Images
 | top | bottom |
 | --- | --- |
-| <img src="supplemental/images/D24_top_connect.jpg" width=330> | <img src="supplemental/images/D24_btm_connect.jpg" width=600> |
+| <img src="supplemental/images/D24_top_connect.jpg" width=330> | <img src="supplemental/images/D24_btm_connect.jpg" width=420> |
 
 
 
