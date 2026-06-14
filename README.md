@@ -95,6 +95,8 @@ Example: **D16F0001**.hex
 | --- | --- |
 | <img src="supplemental/images/D24_top_connect.jpg" width=330> | <img src="supplemental/images/D24_btm_connect.jpg" width=420> |
 
+Note: The '5V zone' silk text can be misleading as the above test point is **not** 5V source but rather the CPU UPDI interface.
+
 <img src="supplemental/images/D24_samples.jpg" width=330>
 
 
