@@ -95,7 +95,7 @@ Example: **D16F0001**.hex
 | --- | --- |
 | <img src="supplemental/images/D24_top_connect.jpg" width=330> | <img src="supplemental/images/D24_btm_connect.jpg" width=420> |
 
-
+<img src="supplemental/images/D24_samples.jpg" width=330>
 
 
 # YouTube
