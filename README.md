@@ -8,9 +8,6 @@ My Homebrew [D24](https://rtb4dcc.de/hardware/decoder/d24/) decoder is a single 
 <details>
 <summary>See also</summary>
 
-- [RTB_D12 - custom](/../../../../git4dcc/RTB_D12) (Fleischmann V100)
-- [RTB_D13 - custom](/../../../../git4dcc/RTB_D13) (Minitrix coach)
-- [RTB_D15 - custom](/../../../../git4dcc/RTB_D15) (Minitrix V160)
 - [RTB_D16 - NEM651](/../../../../git4dcc/RTB_D16)
 - [RTB_D20 - NEM651](/../../../../git4dcc/RTB_D20)
 - [RTB_D21 - Next18](/../../../../git4dcc/RTB_D21)
