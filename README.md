@@ -3,7 +3,7 @@
 [![Kicad_Libs](https://img.shields.io/badge/Kicad_Libs-29C7FF)](https://github.com/git4dcc/RTB_SamacSys)
 [![Apache License 2.0](https://img.shields.io/badge/license-Apache%20License%202.0-lightgray)](https://www.apache.org/licenses/LICENSE-2.0)
 
-My Homebrew [D24](https://rtb4dcc.de/hardware/decoder/d24/) decoder is a single sided mobile decoder with NEM-651 connector. The decoder is designed to integrate into the [RTB](https://rtb4dcc.de/concept/) digital control infrastructure.
+My Homebrew [D24](https://rtb4dcc.de/hardware/decoder/d24/) is a single-sided DIY mobile decoder featuring a NEM-651 connector. While it shares the exact same dimensions as the [D16](https://rtb4dcc.de/hardware/decoder/d16/), it offers additional AUX channels and supports WS28xx LED connections. It is fully designed for integration into the RTB digital control ecosystem.
 
 <details>
 <summary>See also</summary>
@@ -45,7 +45,7 @@ The decoder has the following features,
 - adjustable max AUX current (default 500mA)
 - over temp protection
 - Function output: LV/LR/AUX1/AUX2 (dimmable, 1.4kHz) open drain
-- Function output: AUX3/AUX4/AUX5/AUX6/AUX7 logic level (3.3V)
+- Function output: AUX3/AUX4/AUX5/AUX6/AUX7 logic level (5V)
   - AUX3/AUX4 can be configured to drive WS28xx chips
 - optional external buffer capacitor (max. 1500uF)
 - <10mA idle power consumption
@@ -56,6 +56,8 @@ The decoder has the following features,
 The current PCB layout uses SMD footprints with 0.5mm pitch and mainly 0402 parts. Reflow soldering is recommended, handsoldering will be difficult.
 
 <img src="supplemental/images/D24_top.jpg" width=400>   <img src="supplemental/images/D24_btm.jpg" width=400>
+
+**Note:** The '5V zone' silk text can be misleading as the above test point is **not** 5V source but rather the UPDI interface.
 
 ## PCB
 - 6-layer PCB, FR4, 17 x 11 x 0.8mm (single sided)
@@ -91,8 +93,6 @@ Example: **D16F0001**.hex
 | top | bottom |
 | --- | --- |
 | <img src="supplemental/images/D24_top_connect.jpg" width=330> | <img src="supplemental/images/D24_btm_connect.jpg" width=420> |
-
-Note: The '5V zone' silk text can be misleading as the above test point is **not** 5V source but rather the CPU UPDI interface.
 
 <img src="supplemental/images/D24_samples.jpg" width=330>
 
