@@ -3,7 +3,7 @@
 [![Kicad_Libs](https://img.shields.io/badge/Kicad_Libs-29C7FF)](https://github.com/git4dcc/RTB_SamacSys)
 [![Apache License 2.0](https://img.shields.io/badge/license-Apache%20License%202.0-lightgray)](https://www.apache.org/licenses/LICENSE-2.0)
 
-My Homebrew D24 is a single-sided DIY mobile decoder featuring a NEM-651 connector. While it shares the exact same dimensions as the [D16](https://github.com/git4dcc/RTB_D24), it offers additional AUX channels and supports WS28xx LED connections. It is fully designed for integration into the RTB digital control ecosystem.
+My Homebrew D24 is a single-sided DIY mobile decoder featuring a NEM-651 connector. While it shares the exact same dimensions as the [D16](https://github.com/git4dcc/RTB_D16), it offers additional AUX channels and supports WS28xx LED connections. It is fully designed for integration into the RTB digital control ecosystem.
 
 <details>
 <summary>See also</summary>
